@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-image: url('img/background.jpeg');
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  background: rgb(107, 2, 2);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+  width: 100%;
+  max-width: 500px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #9b3939;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remover {
+  background: red;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
